@@ -69,6 +69,8 @@ D:\www\viarryMVC\viarryMVC\bin\zh-Hans\Microsoft.Owin.Security.Facebook.resource
 D:\www\viarryMVC\viarryMVC\bin\zh-Hans\Microsoft.Owin.Security.Google.resources.dll
 D:\www\viarryMVC\viarryMVC\bin\zh-Hans\Microsoft.Owin.Security.Twitter.resources.dll
 D:\www\viarryMVC\viarryMVC\bin\zh-Hans\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.csprojResolveAssemblyReference.cache
+D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.csprojAssemblyReference.cache
+D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.csproj.CoreCompileInputs.cache
+D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.csproj.CopyComplete
 D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.dll
 D:\www\viarryMVC\viarryMVC\obj\Debug\viarryMVC.pdb

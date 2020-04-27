@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viarryMVC", "viarryMVC\viarryMVC.csproj", "{70A642DB-88AF-4914-9407-64EB2A172A21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viarryWCF", "viarryWCF\viarryWCF.csproj", "{4ECD00BE-89FC-4608-8945-B3C7E78A6822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viarryWF", "viarryWF\viarryWF.csproj", "{F03D009B-EAF1-4815-B3B5-59D54420938D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +19,19 @@ Global
 		{70A642DB-88AF-4914-9407-64EB2A172A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70A642DB-88AF-4914-9407-64EB2A172A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70A642DB-88AF-4914-9407-64EB2A172A21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ECD00BE-89FC-4608-8945-B3C7E78A6822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ECD00BE-89FC-4608-8945-B3C7E78A6822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ECD00BE-89FC-4608-8945-B3C7E78A6822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ECD00BE-89FC-4608-8945-B3C7E78A6822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03D009B-EAF1-4815-B3B5-59D54420938D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03D009B-EAF1-4815-B3B5-59D54420938D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03D009B-EAF1-4815-B3B5-59D54420938D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03D009B-EAF1-4815-B3B5-59D54420938D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36D79A15-13E4-46D8-9E09-EC3C62CE6D59}
 	EndGlobalSection
 EndGlobal

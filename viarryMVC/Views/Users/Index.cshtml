@@ -7,18 +7,33 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <title>测试页面</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/Scripts/jquery-1.10.2.js")
+
+
 </head>
 <body>
     <div class="form-group">
         <div class="input-group">
             <label class="input-group-addon">测试按钮</label>
-            <input onclick="testButton()" class="form-control" placeholder="请点击这里">
+            <input class="form-control" placeholder="请点击这里">
+            <button class="form-control" onclick="testButton()">确定</button>
         </div>
     </div>
     <script>
         function testButton() {
-            alert("你好");
+            $.ajax({
+                url: "/users/views",
+                data: { test: "test" },
+                success(res) {
+                    console.log(res)
+                },
+                error() {
+                    alert("网路错误");
+                },
+            })
         }
     </script>
 </body>

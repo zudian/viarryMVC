@@ -13,5 +13,10 @@ namespace viarryMVC.Controllers
         {
             return View();
         }
+
+        public ActionResult Views()
+        {
+            return Content("你好，这是测试返回文字");
+        }
     }
 }
