@@ -19,6 +19,9 @@ namespace viarryWCF
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
+        [OperationContract]
+        string getUserInput(string value);
+
         // TODO: 在此添加您的服务操作
     }
 

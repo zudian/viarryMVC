@@ -29,5 +29,10 @@ namespace viarryWCF
             }
             return composite;
         }
+
+        public string getUserInput(string value)
+        {
+            return string.Format("您输入的内容是：{0}", value);
+        }
     }
 }

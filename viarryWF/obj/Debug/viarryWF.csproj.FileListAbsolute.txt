@@ -8,3 +8,4 @@ D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.csproj.CoreCompileInputs.cache
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.exe
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.pdb
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.Form1.resources
+D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.mainfrm.resources

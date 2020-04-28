@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viarryWCF", "viarryWCF\viarryWCF.csproj", "{4ECD00BE-89FC-4608-8945-B3C7E78A6822}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "viarryWF", "viarryWF\viarryWF.csproj", "{F03D009B-EAF1-4815-B3B5-59D54420938D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4ECD00BE-89FC-4608-8945-B3C7E78A6822} = {4ECD00BE-89FC-4608-8945-B3C7E78A6822}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
