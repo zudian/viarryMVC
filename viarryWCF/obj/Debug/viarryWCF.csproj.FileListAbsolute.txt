@@ -1,7 +1,6 @@
 D:\www\viarryMVC\viarryWCF\bin\viarryWCF.dll.config
 D:\www\viarryMVC\viarryWCF\bin\viarryWCF.dll
 D:\www\viarryMVC\viarryWCF\bin\viarryWCF.pdb
-D:\www\viarryMVC\viarryWCF\obj\Debug\viarryWCF.csprojAssemblyReference.cache
 D:\www\viarryMVC\viarryWCF\obj\Debug\viarryWCF.csproj.CoreCompileInputs.cache
 D:\www\viarryMVC\viarryWCF\obj\Debug\viarryWCF.dll
 D:\www\viarryMVC\viarryWCF\obj\Debug\viarryWCF.pdb

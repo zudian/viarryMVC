@@ -95,6 +95,13 @@ namespace viarryWF.serviceRef {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/getUserInput", ReplyAction="http://tempuri.org/IService1/getUserInputResponse")]
         System.Threading.Tasks.Task<string> getUserInputAsync(string value);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/sqlComman", ReplyAction="http://tempuri.org/IService1/sqlCommanResponse")]
+        [System.ServiceModel.ServiceKnownTypeAttribute(typeof(viarryWF.serviceRef.CompositeType))]
+        object sqlComman(string value);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IService1/sqlComman", ReplyAction="http://tempuri.org/IService1/sqlCommanResponse")]
+        System.Threading.Tasks.Task<object> sqlCommanAsync(string value);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -146,6 +153,14 @@ namespace viarryWF.serviceRef {
         
         public System.Threading.Tasks.Task<string> getUserInputAsync(string value) {
             return base.Channel.getUserInputAsync(value);
+        }
+        
+        public object sqlComman(string value) {
+            return base.Channel.sqlComman(value);
+        }
+        
+        public System.Threading.Tasks.Task<object> sqlCommanAsync(string value) {
+            return base.Channel.sqlCommanAsync(value);
         }
     }
 }

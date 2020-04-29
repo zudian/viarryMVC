@@ -22,6 +22,9 @@ namespace viarryWCF
         [OperationContract]
         string getUserInput(string value);
 
+        //执行数据库查询语句
+        [OperationContract]
+        Object sqlComman(string value);
         // TODO: 在此添加您的服务操作
     }
 

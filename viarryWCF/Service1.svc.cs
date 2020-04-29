@@ -5,6 +5,7 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.ServiceModel.Web;
 using System.Text;
+using System.Data.SqlClient;
 
 namespace viarryWCF
 {
@@ -33,6 +34,24 @@ namespace viarryWCF
         public string getUserInput(string value)
         {
             return string.Format("您输入的内容是：{0}", value);
+        }
+
+        public object sqlComman(string value)
+        {
+            //创建数据库查询类
+            SqlConnection connection = new SqlConnection("Data Source=.;Initial Catalog=viarry;Integrated Security=True");
+            connection.Open();//打开数据连接
+            SqlCommand command = new SqlCommand(value, connection);//拼接命令脚本
+            
+            try
+            {
+                return command.ExecuteReader();
+                connection.Close();//关闭连接
+            }catch(Exception e)
+            {
+                return e;
+            }
+            
         }
     }
 }

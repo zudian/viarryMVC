@@ -13,6 +13,8 @@ namespace viarryWF
     public partial class mainfrm : Form
     {
         private Form1 form1;
+
+        serviceRef.Service1Client serviceRef = new serviceRef.Service1Client();
         public mainfrm()
         {
             InitializeComponent();
@@ -20,10 +22,8 @@ namespace viarryWF
 
         private void button1_Click(object sender, EventArgs e)
         {
-            form1 = new Form1();
-            //this.Hide();//隐藏当前页面
-            this.Close();//关闭程序
-            form1.Show();//显示上一个页面            
+            var SQLResult = serviceRef.sqlComman("select * from GUIDE_Parts where partNo < 10");
+            Console.WriteLine(SQLResult);
         }
     }
 }

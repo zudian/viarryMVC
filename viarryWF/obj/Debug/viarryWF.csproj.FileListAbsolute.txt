@@ -1,7 +1,6 @@
 D:\www\viarryMVC\viarryWF\bin\Debug\viarryWF.exe.config
 D:\www\viarryMVC\viarryWF\bin\Debug\viarryWF.exe
 D:\www\viarryMVC\viarryWF\bin\Debug\viarryWF.pdb
-D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.csprojAssemblyReference.cache
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.Properties.Resources.resources
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.csproj.GenerateResource.cache
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.csproj.CoreCompileInputs.cache
@@ -9,3 +8,7 @@ D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.exe
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.pdb
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.Form1.resources
 D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.mainfrm.resources
+D:\www\viarryMVC\viarryWF\bin\Debug\viarryWF.exe.manifest
+D:\www\viarryMVC\viarryWF\bin\Debug\viarryWF.application
+D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.exe.manifest
+D:\www\viarryMVC\viarryWF\obj\Debug\viarryWF.application
